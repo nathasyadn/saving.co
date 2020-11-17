@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Saving.co</string>
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="mobile_phone">Nomor Telepon</string>
+    <string name="name">Nama</string>
+    <string name="create_account">Buat Akun</string>
+    <string name="loginFailed">Gagal Login</string>
+    <string name="required_field">Semua form wajib diisi</string>
+    <string name="usernameExist">Username sudah ada</string>
+    <string name="bitcoinText">Bitcoin, salah satu jenis cryptocurrency, telah menarik minat banyak orang. Karena popularitas cryptocurrency, pasar ini lahir untuk memperdagangkan cryptocurrency. Karena Bitcoin adalah cryptocurrency paling terkenal, banyak orang mulai berdagang Bitcoin secara online. Jika Anda juga ingin menjadi seorang trader, berikut adalah beberapa tip perdagangan Bitcoin yang perlu Anda pertimbangkan untuk menjadi sukses: Memiliki Cukup Tabungan Sebelum Berdagang, Tetapkan Batasan Kerugian dan Keuntungan, Diperbarui Dengan Berita dan Peristiwa Terkini, terakhir tapi paling tidak, Pelajari Analisis Teknis.</string>
+    <string name="stockText">Berinvestasi dalam saham adalah cara terbaik untuk menumbuhkan kekayaan. Berikut cara berinvestasi saham: Ketahui perbedaan antara saham dan reksa dana saham, Tetapkan anggaran untuk investasi saham Anda, dan fokuslah pada jangka panjang.</string>
+    <string name="stockTitle">2. Investasi Saham</string>
+    <string name="save_changes">Simpan Perubahan</string>
+    <string name="logout">Keluar</string>
+    <string name="title_account">Akun</string>
+    <string name="title_home">Beranda</string>
+    <string name="toastLogin">Nama dan nomor telepon tidak boleh kosong</string>
+    <string name="toastAccount">Izin Diberikan</string>
+    <string name="toastAccountFailed">Izin Ditolak</string>
+    <string name="toastContactSuccess">Kontak Disimpan</string>
+    <string name="toastTransaction">Jumlah uang wajib diisi</string>
+    <string name="toastLoginSuccess">Login Berhasil</string>
+    <string name="textBitcoinAPI">Harga dalam IDR sekarang:</string>
+    <string name="save_contact">Simpan Kontak</string>
+    <string name="create_transaction">Buat Transaksi</string>
+    <string name="income">Pemasukan</string>
+    <string name="outcome">Pengeluaran</string>
+    <string name="transaction_report">Laporan Transaksi</string>
+    <string name="amount">Jumlah Uang</string>
+    <string name="notes">Catatan</string>
+    <string name="category">Kategori</string>
+    <string name="toastNetwork">Jaringan Terputus</string>
+</resources>

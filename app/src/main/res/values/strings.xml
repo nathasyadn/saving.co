@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">Saving.co</string>
+    <string name="saving" translatable="false">Saving</string>
+    <string name="co" translatable="false">.co</string>
+    <string name="username" translatable="false">Username</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="mobile_phone">Mobile Phone</string>
+    <string name="name">Name</string>
+    <string name="create_account">Create Account</string>
+    <string name="loginFailed">Login Failed</string>
+    <string name="required_field">All field is required</string>
+    <string name="usernameExist">Username is exist</string>
+    <string name="title_activity_home" translatable="false">Saving.co</string>
+    <string name="title_home">Home</string>
+    <string name="title_tips" translatable="false">Tips</string>
+    <string name="title_account">Account</string>
+    <string name="bitcoinText">Bitcoin, a type of cryptocurrency, has piqued the interest of so many people. Because of the popularity of cryptocurrency, a market was born to specifically trade cryptocurrency. Since Bitcoin is the most known cryptocurrency, many people started trading Bitcoin online. If you want to become a trader as well, here are some Bitcoin trading tips you need to consider in order to be successful: Have Enough Savings Before Trading, Set A Limit For Losses and Profit,  Be Updated With Current News and Events, last but not least,  Learn Technical Analysis.</string>
+    <string name="stockText">Investing in stocks is an excellent way to grow wealth. Here how to invest in stocks: Know the difference between stocks and stock mutual funds, Set a budget for your stock investment, and focus on long-term.</string>
+    <string name="bitcoinTitle" translatable="false">1. Bitcoin</string>
+    <string name="stockTitle">2. Invest Stocks</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="logout">Logout</string>
+    <string name="toastLogin">Name and number must not empty</string>
+    <string name="toastAccount">Permission Granted</string>
+    <string name="toastAccountFailed">Permission Denied</string>
+    <string name="toastContactSuccess">Contact saved</string>
+    <string name="toastMessageContact" translatable="false">Exception:</string>
+    <string name="toastTransaction">Amount must required</string>
+    <string name="toastLoginSuccess">Login Success</string>
+    <string name="textBitcoinAPI">IDR now:</string>
+    <string name="save_contact">Save Contact</string>
+    <string name="create_transaction">Create Transaction</string>
+    <string name="income">Income</string>
+    <string name="outcome">Outcome</string>
+    <string name="transaction_report">Transaction Report</string>
+    <string name="amount">Amount</string>
+    <string name="notes">Notes</string>
+    <string name="category">Category</string>
+    <string name="toastNetwork">Disconnected Network</string>
 </resources>
