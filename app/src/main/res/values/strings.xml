@@ -39,4 +39,13 @@
     <string name="notes">Notes</string>
     <string name="category">Category</string>
     <string name="toastNetwork">Disconnected Network</string>
+    <string name="calculator">Calculator</string>
+    <string name="result">Result</string>
+    <string name="input_1">Input 1:</string>
+    <string name="input_2">Input 2:</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="multiply" translatable="false">X</string>
+    <string name="divide" translatable="false">/</string>
+    <string name="minus" translatable="false">-</string>
+    <string name="requiredInput">Required Input</string>
 </resources>

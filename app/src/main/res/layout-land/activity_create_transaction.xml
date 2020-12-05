@@ -8,11 +8,11 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/amountTitle"
@@ -47,22 +47,6 @@
                 app:layout_constraintHorizontal_bias="0.128"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/notesTitle" />
-
-            <Button
-                android:id="@+id/buttonCreateTransactionData"
-                android:layout_width="342dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="13dp"
-                android:layout_marginBottom="13dp"
-                android:background="#11BB88"
-                android:text="@string/create_transaction"
-                android:textColor="#FFFFFF"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/radioGroup"
-                app:layout_constraintVertical_bias="0.0" />
 
             <TextView
                 android:id="@+id/categoryTitle"
@@ -122,6 +106,36 @@
                     android:onClick="onRadioButtonClicked"
                     android:text="@string/outcome" />
             </RadioGroup>
+
+            <Button
+                android:id="@+id/buttonCreateTransactionData"
+                android:layout_width="342dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="13dp"
+                android:background="#11BB88"
+                android:text="@string/create_transaction"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/buttonCalculator"
+                android:layout_width="342dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="13dp"
+                android:background="#FFFFFF"
+                android:text="@string/calculator"
+                android:textColor="#11BB88"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonCreateTransactionData" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

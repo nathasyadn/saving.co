@@ -120,6 +120,21 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+            <Button
+                android:id="@+id/buttonCalculator"
+                android:layout_width="342dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="13dp"
+                android:background="#FFFFFF"
+                android:text="@string/calculator"
+                android:textColor="#11BB88"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonCreateTransactionData" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

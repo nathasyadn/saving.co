@@ -13,6 +13,7 @@
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ui.calculator.CalculatorActivity"></activity>
         <activity android:name=".ui.createTransaction.CreateTransactionActivity" />
         <activity
             android:name=".ui.home.HomeActivity"

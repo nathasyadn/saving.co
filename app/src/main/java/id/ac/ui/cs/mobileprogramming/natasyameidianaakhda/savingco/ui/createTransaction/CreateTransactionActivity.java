@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProviders;
 
 import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.R;
+import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.ui.calculator.CalculatorActivity;
 import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.ui.home.HomeActivity;
 import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.util.SavingcoConstant;
 
@@ -31,6 +32,9 @@ public class CreateTransactionActivity extends AppCompatActivity implements View
 
         final View createTransaction = findViewById(R.id.buttonCreateTransactionData);
         createTransaction.setOnClickListener(this);
+
+        final View calculatorButton = findViewById(R.id.buttonCalculator);
+        calculatorButton.setOnClickListener(this);
     }
 
     public void onRadioButtonClicked(View view) {
@@ -74,6 +78,9 @@ public class CreateTransactionActivity extends AppCompatActivity implements View
                     startActivity(intent);
                 }
                 break;
+            case R.id.buttonCalculator:
+                Intent intent = new Intent(getApplicationContext(), CalculatorActivity.class);
+                startActivity(intent);
         }
     }
 }

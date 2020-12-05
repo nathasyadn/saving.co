@@ -32,4 +32,9 @@
     <string name="notes">Catatan</string>
     <string name="category">Kategori</string>
     <string name="toastNetwork">Jaringan Terputus</string>
+    <string name="calculator">Kalkulator</string>
+    <string name="result">Hasil</string>
+    <string name="input_1">Masukan 1:</string>
+    <string name="input_2">Masukan 2:</string>
+    <string name="requiredInput">Wajib Diisi</string>
 </resources>
