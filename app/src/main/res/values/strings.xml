@@ -48,4 +48,9 @@
     <string name="divide" translatable="false">/</string>
     <string name="minus" translatable="false">-</string>
     <string name="requiredInput">Required Input</string>
+    <string name="NotificationServis" translatable="false">NotificationService</string>
+    <string name="remind" translatable="false">Reminder</string>
+    <string name="record">Have you recorded your finances today?</string>
+    <string name="chanReminder" translatable="false">Reminder Channel</string>
+    <string name="reminderTrx">I think you forgot to add your transaction</string>
 </resources>

@@ -37,4 +37,6 @@
     <string name="input_1">Masukan 1:</string>
     <string name="input_2">Masukan 2:</string>
     <string name="requiredInput">Wajib Diisi</string>
+    <string name="record">Apakah kamu sudah merekam transaksimu hari ini?</string>
+    <string name="reminderTrx">Sepertinya kamu lupa memasukkan transaksimu</string>
 </resources>

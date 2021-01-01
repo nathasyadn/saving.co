@@ -23,6 +23,9 @@ public class UserProfile implements Serializable {
     @ColumnInfo(name = "modified_at")
     private String modifiedAt;
 
+    @ColumnInfo(typeAffinity = ColumnInfo.BLOB)
+    private byte[] image;
+
     public int getId() {
         return id;
     }
@@ -61,5 +64,13 @@ public class UserProfile implements Serializable {
 
     public void setModifiedAt(String modifiedAt) {
         this.modifiedAt = modifiedAt;
+    }
+
+    public byte[] getImage() {
+        return image;
+    }
+
+    public void setImage(byte[] image) {
+        this.image = image;
     }
 }

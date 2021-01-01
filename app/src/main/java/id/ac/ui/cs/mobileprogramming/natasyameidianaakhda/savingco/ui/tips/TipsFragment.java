@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
 import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.R;
-import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.util.ConnectionReceiver;
+import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.util.receiver.ConnectionReceiver;
 import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.util.SavingcoConstant;
 
 public class TipsFragment extends Fragment {

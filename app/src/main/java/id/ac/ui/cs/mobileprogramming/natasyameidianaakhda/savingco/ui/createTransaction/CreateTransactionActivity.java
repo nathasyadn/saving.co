@@ -16,6 +16,7 @@ import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.R;
 import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.ui.calculator.CalculatorActivity;
 import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.ui.home.HomeActivity;
 import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.util.SavingcoConstant;
+import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.util.service.ReminderService;
 
 public class CreateTransactionActivity extends AppCompatActivity implements View.OnClickListener {
     private CreateTransactionViewModel viewModel;
@@ -35,6 +36,20 @@ public class CreateTransactionActivity extends AppCompatActivity implements View
 
         final View calculatorButton = findViewById(R.id.buttonCalculator);
         calculatorButton.setOnClickListener(this);
+    }
+
+    @Override
+    public void onStop(){
+        Intent intent = new Intent(this, ReminderService.class);
+        startService(intent);
+        super.onStop();
+    }
+
+    @Override
+    public void onResume(){
+        Intent intent = new Intent(this, ReminderService.class);
+        stopService(intent);
+        super.onResume();
     }
 
     public void onRadioButtonClicked(View view) {
@@ -73,6 +88,9 @@ public class CreateTransactionActivity extends AppCompatActivity implements View
                     char income = isIncome ? 'Y' : 'N';
 
                     viewModel.createTransaction(userId, income, amount, notes);
+                    Intent intentService = new Intent(this, ReminderService.class);
+                    stopService(intentService);
+
                     Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(intent);

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,6 +23,7 @@ import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.R;
 import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.databinding.TransactionFrameBinding;
 import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.persistence.transaction.Transaction;
 import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.ui.createTransaction.CreateTransactionActivity;
+import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.ui.openGL.OpenGLActivity;
 
 public class HomeFragment extends Fragment {
     private List<Transaction> transactionIncomeList = new ArrayList<>();
@@ -76,6 +78,15 @@ public class HomeFragment extends Fragment {
                 startActivity(intent);
             }
         });
+        final ImageView homeLogo = root.findViewById(R.id.homeLogo);
+        homeLogo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getContext(), OpenGLActivity.class);
+                startActivity(intent);
+            }
+        });
+
         return root;
     }
 

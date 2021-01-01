@@ -1,4 +1,4 @@
-package id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.util;
+package id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.util.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,6 +8,7 @@ import android.net.NetworkInfo;
 import android.widget.Toast;
 
 import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.R;
+import id.ac.ui.cs.mobileprogramming.natasyameidianaakhda.savingco.util.SavingcoConstant;
 
 public class ConnectionReceiver extends BroadcastReceiver {
     @Override
