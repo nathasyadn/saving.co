@@ -45,13 +45,12 @@ public class NotificationService extends IntentService {
     private NotificationCompat.Builder createNotification() {
         Context context = getApplicationContext();
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            makeNotificationChannel("CHANNEL_1",
+            makeNotificationChannel(getString(R.string.channel1),
                     getString(R.string.chanReminder), NotificationManager.IMPORTANCE_DEFAULT);
         }
 
         NotificationCompat.Builder notification =
-                new NotificationCompat.Builder(this,
-                        "CHANNEL_1");
+                new NotificationCompat.Builder(this, getString(R.string.channel1));
 
         notification
                 .setSmallIcon(R.mipmap.logo_foreground)

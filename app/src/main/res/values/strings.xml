@@ -53,4 +53,9 @@
     <string name="record">Have you recorded your finances today?</string>
     <string name="chanReminder" translatable="false">Reminder Channel</string>
     <string name="reminderTrx">I think you forgot to add your transaction</string>
+    <string name="channel1" translatable="false">CHANNEL_1</string>
+    <string name="channel2" translatable="false">CHANNEL_2</string>
+    <string name="saveimg">You need this permission to save image</string>
+    <string name="okay" translatable="false">OK</string>
+    <string name="cancellation">Cancel</string>
 </resources>

@@ -39,4 +39,6 @@
     <string name="requiredInput">Wajib Diisi</string>
     <string name="record">Apakah kamu sudah merekam transaksimu hari ini?</string>
     <string name="reminderTrx">Sepertinya kamu lupa memasukkan transaksimu</string>
+    <string name="cancellation">Batal</string>
+    <string name="saveimg">Kamu membutuhkan izin untuk menyimpan gambar</string>
 </resources>

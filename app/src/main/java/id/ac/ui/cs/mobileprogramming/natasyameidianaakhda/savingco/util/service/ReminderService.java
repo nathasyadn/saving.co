@@ -58,13 +58,12 @@ public class ReminderService extends Service {
     private NotificationCompat.Builder createNotification() {
         Context context = getApplicationContext();
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            makeNotificationChannel("CHANNEL_2",
+            makeNotificationChannel(getString(R.string.channel2),
                     getString(R.string.chanReminder), NotificationManager.IMPORTANCE_DEFAULT);
         }
 
         NotificationCompat.Builder notification =
-                new NotificationCompat.Builder(this,
-                        "CHANNEL_2");
+                new NotificationCompat.Builder(this, getString(R.string.channel2));
 
         notification
                 .setSmallIcon(R.mipmap.logo_foreground)

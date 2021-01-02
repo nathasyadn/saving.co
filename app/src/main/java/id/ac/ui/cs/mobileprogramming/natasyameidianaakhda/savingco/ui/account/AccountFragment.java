@@ -181,7 +181,7 @@ public class AccountFragment extends Fragment {
                     grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 pickFromGallery();
             } else {
-                showMessageOKCancel("You need this permission to save image",
+                showMessageOKCancel(getString(R.string.saveimg),
                         new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -243,8 +243,8 @@ public class AccountFragment extends Fragment {
     private void showMessageOKCancel(String message, DialogInterface.OnClickListener okListener) {
         new AlertDialog.Builder(getContext())
                 .setMessage(message)
-                .setPositiveButton("OK", okListener)
-                .setNegativeButton("Cancel", null)
+                .setPositiveButton(R.string.okay, okListener)
+                .setNegativeButton(R.string.cancellation, null)
                 .create()
                 .show();
     }
